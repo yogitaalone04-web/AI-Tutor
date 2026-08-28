@@ -12,12 +12,6 @@
     <a href="https://docker.com"><img src="https://img.shields.io/badge/Docker_Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
   </p>
 
-  <p>
-    <b>Teacher Assessment Tool (TAE-I) — Project-Based Learning</b><br>
-    <i>Prepared for:</i> <b>S.B. Jain Institute of Technology, Management and Research, Nagpur</b><br>
-    <i>Author:</i> <b>Yogita — B.Tech CSE (2024–2027)</b>
-  </p>
-
 </div>
 
 ---
@@ -244,21 +238,3 @@ Sends a query grounded against the uploaded PDF session.
 | :--- | :--- | :--- |
 | **Frontend** | **Vercel** / Netlify | Root Directory: `frontend` \| Framework: `Vite` \| Env Var: `VITE_API_BASE_URL=https://<your-backend>.onrender.com/api` |
 | **Backend** | **Render** / Railway | Root Directory: `backend` \| Build: `pip install -r requirements.txt` \| Start: `uvicorn app.main:app --host 0.0.0.0 --port $PORT` |
-
----
-
-## 📊 TAE-I Assessment Mapping
-
-| Rubric Criteria | Weightage | Implementation Details |
-| :--- | :---: | :--- |
-| **Topic Knowledge** | **3 Marks** | Comprehensive SRS, RAG architecture, vector search math, and Gemini LLM grounding. |
-| **Development** | **3 Marks** | End-to-end full-stack app with React 18, FastAPI, FAISS vector index, page citations, and error fallbacks. |
-| **Presentation** | **2 Marks** | Sleek Dark Glassmorphism UI with interactive PDF dropzone, real-time status indicators, and Markdown rendering. |
-| **Documentation** | **2 Marks** | Professional README, detailed installation steps, API specifications, and Docker support. |
-
----
-
-## 📄 License & Attribution
-
-Developed for **Teacher Assessment Tool (TAE-I)** at **S.B. Jain Institute of Technology, Management and Research, Nagpur**.  
-Submitted by: **Yogita — B.Tech CSE (2024–2027)**.
